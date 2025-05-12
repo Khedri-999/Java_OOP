@@ -25,6 +25,7 @@ class Circle extends Shape {
     double perimetre() {
         return 2 * Math.PI * radius;
     }
+   
 }
 
 
@@ -37,9 +38,8 @@ public class TP3 {
     public static void main(String[] args) {
 
        
-        Shape circle = new Circle(5);
+        Circle circle = new Circle(5);
         System.out.println("Cercle :");
-        display(circle) ;
-        
+        display(circle);
     }
 }

@@ -21,7 +21,10 @@
 
 
 public class TP2 {
-
+    public static void display(Vehicle v) {
+        System.out.println("The infos are : ");
+        v.displayInfo();
+    }
     public static void main(String[] args) {
         // Vehicle myvehicle = new Vehicle("Totota", 2022) ;
         // myvehicle.displayInfo();
@@ -29,6 +32,6 @@ public class TP2 {
 
 
        Vehicle car = new Car("Mercedez-benz", 2023, 39) ;
-        car.displayInfo();
+       display(car);
     }
 }
