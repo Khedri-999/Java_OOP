@@ -2,11 +2,7 @@ package project;
 
 import java.util.Scanner;
 
-import Circle;
-import Drawable;
-import Rectangle;
-import Shape;
-import Triangle;
+
 
 public class Project {
     public static void main(String[] args) {

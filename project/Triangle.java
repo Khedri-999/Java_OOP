@@ -1,7 +1,6 @@
 package project;
 
-import Drawable;
-import Shape;
+
 
 public class Triangle extends Shape implements Drawable {
     private double a, b, c; // Three sides

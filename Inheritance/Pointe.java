@@ -1,3 +1,4 @@
+package Inheritance;
 public class Pointe {
    protected int x ;
     protected int y;  

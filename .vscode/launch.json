@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Example",
+            "request": "launch",
+            "mainClass": "Files.Example",
+            "projectName": "Java_2cp_a45820fe"
+        },
+        {
+            "type": "java",
+            "name": "Example",
+            "request": "launch",
+            "mainClass": "Interrogation.Example",
+            "projectName": "Java_2cp_a45820fe"
+        },
+        {
+            "type": "java",
+            "name": "Exo2",
+            "request": "launch",
+            "mainClass": "This.Exo2",
+            "projectName": "Java_2cp_a45820fe"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"

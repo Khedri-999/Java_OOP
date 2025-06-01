@@ -1,4 +1,6 @@
- public class PointCol extends Pointe {
+package Inheritance;
+
+public class PointCol extends Pointe {
     private String color ; 
     
    
@@ -8,10 +10,10 @@
         this.color = color ; 
     } 
     
-    // public void colorise(){
-    //     super.display();
-    //     System.out.println(("Color is "+color)); 
-    // }
+    public void colorise(){
+        super.display();
+        System.out.println(("Color is "+color)); 
+    }
 
     public void display(){
         System.out.println("The point is at in "+x+" and "+y +" with color  "+color);
